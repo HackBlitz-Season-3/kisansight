@@ -1,0 +1,187 @@
+# =============================================================================
+# GENERAL
+# =============================================================================
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Editor & IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+*.p12
+secrets/
+
+# =============================================================================
+# NODE / JAVASCRIPT / TYPESCRIPT
+# =============================================================================
+
+node_modules/
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+.turbo/
+coverage/
+*.tsbuildinfo
+.eslintcache
+.stylelintcache
+
+# Package manager locks (keep only the one you use)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# =============================================================================
+# PYTHON
+# =============================================================================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+venv/
+.venv/
+env/
+.env/
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+.coverage.*
+*.cover
+
+# =============================================================================
+# JAVA / KOTLIN
+# =============================================================================
+
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+target/
+.gradle/
+gradle-app.setting
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# =============================================================================
+# RUBY
+# =============================================================================
+
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/tmp/
+.bundle/
+vendor/bundle
+
+# =============================================================================
+# GO
+# =============================================================================
+
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+vendor/
+
+# =============================================================================
+# RUST
+# =============================================================================
+
+/target/
+Cargo.lock
+
+# =============================================================================
+# DATABASES
+# =============================================================================
+
+*.sqlite
+*.sqlite3
+*.db
+
+# =============================================================================
+# DOCKER
+# =============================================================================
+
+.docker/
+
+# =============================================================================
+# TERRAFORM
+# =============================================================================
+
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+override.tf
+override.tf.json
+
+# =============================================================================
+# BUILD ARTIFACTS
+# =============================================================================
+
+*.o
+*.a
+*.lib
+*.out
+*.tmp
+*.temp
